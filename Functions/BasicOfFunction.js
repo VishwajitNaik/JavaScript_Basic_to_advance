@@ -80,7 +80,7 @@ let sumofnum = unlimitedArgs(1,2,3,4,5);
 console.log(sumofnum);
 
 
-/*
+/**/
 //
 
 const check = (a,b) =>{
@@ -102,7 +102,7 @@ var x = function () {
 }
 
 x();
-*/
+
 
 
 //

@@ -1,76 +1,76 @@
-// console.log("Hi I Am JavaScript Developer");
+console.log("Hi I Am JavaScript Developer");
 
-// const a = 10, b =20;
-// console.log("Addition =", a + b);
+const a = 10, b =20;
+console.log("Addition =", a + b);
 
-// if (a > b) {
-//     console.log("a is Greter than b");
-// }else {
-//     console.log("b is a greter than a");
-// }
+if (a > b) {
+    console.log("a is Greter than b");
+}else {
+    console.log("b is a greter than a");
+}
 
-// const chek = a > b ? a : b;
-// console.log(chek);
+const chek = a > b ? a : b;
+console.log(chek);
 
 
 
-// for (let i = 0; i <= 5; i++) {
-//     const evenOdd = i%2 == 0 ? "even" : "odd";
-//     console.log(evenOdd); 
+for (let i = 0; i <= 5; i++) {
+    const evenOdd = i%2 == 0 ? "even" : "odd";
+    console.log(evenOdd); 
     
-// }
+}
 
 
 
-// let arr = []; // empty array
+let arr = []; // empty array
 
-// let arr1 = [1,2,3,4,5] 
-// console.log(arr1);
+let arr1 = [1,2,3,4,5] 
+console.log(arr1);
 
-// for(let i = 1; i <= 5; i++){
-//     const even = i%2 == 0 ? arr.push(i) :arr1.splice(i, 1);
-// }
-// console.log(arr);
-// console.log(arr1);
+for(let i = 1; i <= 5; i++){
+    const even = i%2 == 0 ? arr.push(i) :arr1.splice(i, 1);
+}
+console.log(arr);
+console.log(arr1);
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// let arr = []; // empty array
+let arr = []; // empty array
 
-// let arr1 = [1, 20, 30, 40, 5];
-// console.log(arr1);
+let arr1 = [1, 20, 30, 40, 5];
+console.log(arr1);
 
-// for (let i = 0; i < arr1.length; i++) {
-//   if (arr1[i] % 2 === 0) {
-//     arr.push(arr1[i]); // add even number to arr
-//   } else {
-//     // remove odd number from arr1
-//     arr1.splice(i, 1);
-//     i--;
-//   }
-// }
+for (let i = 0; i < arr1.length; i++) {
+  if (arr1[i] % 2 === 0) {
+    arr.push(arr1[i]); // add even number to arr
+  } else {
+    // remove odd number from arr1
+    arr1.splice(i, 1);
+    i--;
+  }
+}
 
-// console.log(arr);
-// console.log(arr1);
+console.log(arr);
+console.log(arr1);
 
-// const fruitsKG = ["banana","chiku","grephs"];
-// const KG = [2,4,6];
+const fruitsKG = ["banana","chiku","grephs"];
+const KG = [2,4,6];
 
-// console.log(fruitsKG);
-// fruitsKG.push("kaligad", 4);
-// console.log(fruitsKG);
+console.log(fruitsKG);
+fruitsKG.push("kaligad", 4);
+console.log(fruitsKG);
 
-// // fruitsKG.pop()
+// fruitsKG.pop()
 
-// // fruitsKG.shift();
+// fruitsKG.shift();
 
-// // fruitsKG.unshift('Strobery', 4)
+// fruitsKG.unshift('Strobery', 4)
 
-// const a3 = fruitsKG.concat(KG);
+const a3 = fruitsKG.concat(KG);
 
-// const slice_work = a3.slice(1,2);
+const slice_work = a3.slice(1,2);
 
-// console.log(slice_work);
+console.log(slice_work);
 
 
 

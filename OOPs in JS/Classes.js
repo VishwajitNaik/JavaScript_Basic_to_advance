@@ -1,68 +1,68 @@
-// class product {
-//   display(){
-//     console.log("Vishwajit naik");
-//   }
-// }
+class product {
+  display(){
+    console.log("Vishwajit naik");
+  }
+}
 
-// const p = new product();
+const p = new product();
 
-// p.display()
+p.display()
 
-//----
+----------------------
 
-// class product {
-//   constructor(n, p, d=10){
-//     this.name = n
-//     this.price = p
-//     this.discount = d
-//     // console.log(n,p);
-//     // console.log(this);
-//   }
-//   display(){
-//     console.log(`Very expensive designed t-shirt ${this.name} with price ${this.price}`);
-//   }
+class product {
+  constructor(n, p, d=10){
+    this.name = n
+    this.price = p
+    this.discount = d
+    // console.log(n,p);
+    // console.log(this);
+  }
+  display(){
+    console.log(`Very expensive designed t-shirt ${this.name} with price ${this.price}`);
+  }
 
-//   expDescount(){
-//     let newPrice = this.price*(Math.floor(100-this.discount)/100)  
-//     return newPrice;
-//   }
+  expDescount(){
+    let newPrice = this.price*(Math.floor(100-this.discount)/100)  
+    return newPrice;
+  }
 
-// }
+}
 
-// const p = new product("Visjwajit naik", 101, 10);
-// console.log(p.expDescount());
-// const p1 = new product("Visjwajit", 201, 10);
-// console.log(p1.expDescount());
+const p = new product("Visjwajit naik", 101, 10);
+console.log(p.expDescount());
+const p1 = new product("Visjwajit", 201, 10);
+console.log(p1.expDescount());
 
-// console.log(p, p1);
+console.log(p, p1);
 
-// this
+this
 
-// class product {
-//   constructor(n,p){
-//     console.log("colling the constructur");
-//     this.name = n;
-//     this.price = p;
+class product {
+  constructor(n,p){
+    console.log("colling the constructur");
+    this.name = n;
+    this.price = p;
     
-//   }
-//   display(){
-//     console.log(`${this.name} ${this.price}`);
-//   }
-// }
+  }
+  display(){
+    console.log(`${this.name} ${this.price}`);
+  }
+}
 
-// const p = new product("T-Shirt", 400);
-// console.log(p);
+const p = new product("T-Shirt", 400);
+console.log(p);
 
-// p.display()
+p.display()
 
 
-// function product(n,p){
-//   this.name = n;
-//   this.price = p;
-// }
+function product(n,p){
+  this.name = n;
+  this.price = p;
+}
 
-// const p = new product("Iphone 14", 100000);
-// console.log(p);
+const p = new product("Iphone 14", 100000);
+console.log(p);
 
 
 // *******************************
@@ -74,14 +74,14 @@
 // *******************************
 
 
-// let obj = {
-//   x:10, y:20,
-//   display(){
-//     console.log(this.x);
-//   }
-// }
+let obj = {
+  x:10, y:20,
+  display(){
+    console.log(this.x);
+  }
+}
 
-// obj.display();
+obj.display();
 
 class product{
   // discount;
